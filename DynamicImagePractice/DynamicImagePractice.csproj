@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Harry_Potter_character_poster.jpg" />
+    <None Remove="Images\Ron_Weasley_poster.jpg" />
+    <None Remove="Ron_Weasley_poster.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Ron_Weasley_poster.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Harry_Potter_character_poster.jpg" />
+    <Resource Include="Ron_Weasley_poster.jpg" />
+  </ItemGroup>
+
+</Project>
